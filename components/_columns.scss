@@ -3,6 +3,7 @@
 // Base column styles
 *[class^="col-"]{
   flex: 0 1 auto;
+  box-sizing: border-box;
 }
 
 // 12 Columns

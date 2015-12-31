@@ -21,3 +21,8 @@
 .col-right{
   margin: 0 0 0 auto;
 }
+
+// Allow a Column to Stretch to its siblings
+.stretch{
+  align-self: stretch;
+}

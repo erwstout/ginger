@@ -5,8 +5,10 @@ solid lightweight grid system to make developing and designing your next site
 easy and quick.
 
 ## Installing Ginger ##
-Currently, there is only this repository. In the near future you will be able to
-use both bower and npm.
+There are three ways to install Ginger.
+1. Clone the repository or download the files to your project
+2. Install via bower using `bower install ginger --save`
+3. Install via npm using `npm install ginger-grid --save`
 
 ## Using Ginger ##
 Ginger is rather easy to use. A basic structure of one column spans 12 columns
@@ -75,8 +77,7 @@ settings it would look something like this:
 @import 'scss/_settings.scss';
 @import 'ginger/ginger';
 ```
-Or if you installed Ginger with bower (bower package coming soon), it would look
-something like this:
+Or if you installed Ginger with bower, it would look something like this:
 ```scss
 // vendor files
 @import 'scss/_settings.scss';

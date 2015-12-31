@@ -1,0 +1,25 @@
+{
+  "name": "ginger",
+  "description": "A minimal flexbox grid system named after a cute dog.",
+  "main": "ginger.scss",
+  "authors": [
+    "Eric Stout <ericwstout@gmail.com>"
+  ],
+  "license": "GPL-3.0",
+  "keywords": [
+    "Grid",
+    "Flexbox",
+    "Flex",
+    "Box",
+    "framework"
+  ],
+  "homepage": "https://github.com/buschschwick/ginger",
+  "moduleType": [],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

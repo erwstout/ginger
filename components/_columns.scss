@@ -1,0 +1,16 @@
+// Columns
+
+// Base column styles
+*[class^="col-"]{
+  flex: 0 1 auto;
+}
+
+// 12 Columns
+.col-12{
+  width: 100%;
+}
+
+// 11 Columns
+.col-11{
+  width: 91.66666%;
+}

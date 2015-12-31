@@ -6,9 +6,9 @@ easy and quick.
 
 ## Installing Ginger ##
 There are three ways to install Ginger.
-1. Clone the repository or download the files to your project
-2. Install via bower using `bower install ginger --save`
-3. Install via npm using `npm install ginger-grid --save`
+1.  Clone the repository or download the files to your project
+2.  Install via bower using `bower install ginger --save`
+3.  Install via npm using `npm install ginger-grid --save`
 
 ## Using Ginger ##
 Ginger is rather easy to use. A basic structure of one column spans 12 columns

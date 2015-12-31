@@ -65,3 +65,12 @@
 .col-1{
   width: 8.33333%;
 }
+
+// Mobile Breakpoint Adjustments
+@media screen and (max-width: $mobile-breakpoint){
+  *[class^="col-"]{
+    width: 100%;
+    flex: 1 1 auto;
+    box-sizing: border-box;
+  }
+}

@@ -43,6 +43,14 @@ use:
 ```
 <div class="col-6">
 ```
+### Miscellaneous Classes ###
+* `col-centered` - using this will center your element in the row
+* `col-right` - using this will push your element to the far right of the row
+
+## Responsiveness ##
+Ginger is mobile responsive. By default, all columns break to 100% at the defined
+mobile breakpoint.
+
 ## Extras ##
 Ginger has a few extras to make life easy, because life is already too hard.
 

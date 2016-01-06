@@ -1,3 +1,6 @@
+![Ginger Logo]
+(http://buschschwick.github.io/ginger/images/GingerLogo.png)
+
 # Ginger #
 Ginger is a minimal flexbox 12 column grid system named after a cute dog. It doesn't give
 you any fancy extras like some other frameworks, but what it does give you is a
@@ -70,7 +73,7 @@ Adjusting the settings for Ginger allows you to customize the max-width of rows,
 column padding, flex-basis value, or mobile breakpoint. If you are going to adjust
 the settings it is best to make a copy of the file and include it in your project
 compilation process to avoid any settings being overwritten in the event of a
-Ginger update. 
+Ginger update.
 
 For instance, if I had a stylesheet called `theme.scss` using Ginger with custom
 settings it would look something like this:

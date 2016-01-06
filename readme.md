@@ -12,8 +12,8 @@ There are three ways to install Ginger.
 3.  Install via npm using `npm install ginger-grid --save`
 
 ## Using Ginger ##
-Ginger is rather easy to use. A basic structure of one column spans 12 columns
-would look similar to this:
+Ginger is rather easy to use. A basic structure that consists of an element that
+spans 12 columns would look similar to this:
 ```html
 <div class="container">
   <div class="row">
@@ -67,9 +67,10 @@ to the height of its siblings.
 
 ## Adjusting Default Settings ##
 Adjusting the settings for Ginger allows you to customize the max-width of rows,
-column padding, or mobile breakpoint. If you are going to adjust the settings it
-is best to make a copy of the file and include it in your project compilation
-process to avoid any settings being overwritten in the event of a Ginger update.
+column padding, flex-basis value, or mobile breakpoint. If you are going to adjust
+the settings it is best to make a copy of the file and include it in your project
+compilation process to avoid any settings being overwritten in the event of a
+Ginger update. 
 
 For instance, if I had a stylesheet called `theme.scss` using Ginger with custom
 settings it would look something like this:

@@ -1,6 +1,6 @@
 // Row
 .row{
-  flex: 1 1 auto;
+  flex: 1 1 $flex-basis;
   width: 100%;
   max-width: $row-max-width;
   position: relative;

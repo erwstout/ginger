@@ -91,3 +91,6 @@ Or if you installed Ginger with bower, it would look something like this:
 ## Issues / Bugs / Contributions ##
 If you have feedback, find a bug, or want to make contributions, please don't
 hesitate to open an issue or make a pull request.
+
+Special thanks to [Allison Perlis](http://allisonperlis.com/) for the rad Ginger
+logo!

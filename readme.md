@@ -14,6 +14,10 @@ There are three ways to install Ginger.
 2.  Install via bower using `bower install ginger --save`
 3.  Install via npm using `npm install ginger-grid --save`
 
+A fourth option is downloading the latest version of Ginger and including `ginger.min.css`
+found in the `/dist/` folder into the `<head>` of your document. Only use this method if you don't want to customize
+any settings and/or need a pure CSS build.
+
 ## Using Ginger ##
 Ginger is rather easy to use. A basic structure that consists of an element that
 spans 12 columns would look similar to this:

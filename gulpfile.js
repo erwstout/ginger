@@ -18,7 +18,7 @@ gulp.task('sass', function(){
 });
 
 // Minify Css
-.gulp.task('cssnano', ['sass'], function(){
+gulp.task('cssnano', ['sass'], function(){
   gulp.src('./dist/ginger.css')
     .pipe(rename({
       suffix: '.min'

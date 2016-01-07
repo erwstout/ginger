@@ -26,6 +26,7 @@ gulp.task('cssnano', ['sass'], function(){
     .pipe(cssnano({
       discardComments: {removeAllButFirst: true}
     }))
+    .pipe(gulp.dest('./dist'));
 });
 
 // Default Task

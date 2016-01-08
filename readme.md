@@ -53,6 +53,24 @@ use:
 ```html
 <div class="col-6">
 ```
+
+## Individual Flex-Basis Values ##
+If you'd like to have columns with custom `flex-basis` values, you totally can.
+This requires that you include `js/ginger.js` or `dist/ginger.min.js` in your project. A
+custom `flex-basis` setup would look something like this:
+```
+<div class="container">
+  <div class="row">
+    <div class="flex-basis-450">
+      ...
+    </div>
+  </div>
+</div>
+```
+Whatever value you give your `flex-basis-` class will be passed to the element's
+`flex-basis` property. Ginger does not require to include `ginger.js` so if changing
+`flex-basis` values isn't for you, then move on!
+
 ### Miscellaneous Classes ###
 * `col-centered` - using this will center your element in the row
 * `col-right` - using this will push your element to the far right of the row

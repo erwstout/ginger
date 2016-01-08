@@ -46,19 +46,11 @@ Or if you wanted two columns that span 6 each:
 Ginger requires that you always use a `container` element to hold your `row` and
 columns and you must have a `row` element that holds your columns.
 
-## Class Names ##
-I kept Ginger very simple. Adding `col-*` will give you an element spanning
-however many columns indicated. So to add an element spanning 6 columns I would
-use:
-```html
-<div class="col-6">
-```
-
 ## Individual Flex-Basis Values ##
 If you'd like to have columns with custom `flex-basis` values, you totally can.
 This requires that you include `js/ginger.js` or `dist/ginger.min.js` in your project. A
 custom `flex-basis` setup would look something like this:
-```
+```html
 <div class="container">
   <div class="row">
     <div class="flex-basis-450">
@@ -70,6 +62,14 @@ custom `flex-basis` setup would look something like this:
 Whatever value you give your `flex-basis-` class will be passed to the element's
 `flex-basis` property. Ginger does not require to include `ginger.js` so if changing
 `flex-basis` values isn't for you, then move on!
+
+## Class Names ##
+I kept Ginger very simple. Adding `col-*` will give you an element spanning
+however many columns indicated. So to add an element spanning 6 columns I would
+use:
+```html
+<div class="col-6">
+```
 
 ### Miscellaneous Classes ###
 * `col-centered` - using this will center your element in the row

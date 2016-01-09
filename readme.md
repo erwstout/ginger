@@ -60,11 +60,11 @@ custom `flex-basis` setup would look something like this:
 </div>
 ```
 Whatever value you give your `flex-basis-` class will be passed to the element's
-`flex-basis` property. Ginger does not require to include `ginger.js` so if changing
-`flex-basis` values isn't for you, then move on!
+`flex-basis` property and is converted to pixels. Ginger does not require to include `ginger.js` so if changing
+`flex-basis` values with classes isn't for you, then move on!
 
 ## Class Names ##
-I kept Ginger very simple. Adding `col-*` will give you an element spanning
+The goal for Ginger is to be very simple. Class names are simple too. Adding `col-*` will give you an element spanning
 however many columns indicated. So to add an element spanning 6 columns I would
 use:
 ```html
@@ -92,7 +92,7 @@ to the height of its siblings.
 
 ## Adjusting Default Settings ##
 Adjusting the settings for Ginger allows you to customize the max-width of rows,
-column padding, flex-basis value, or mobile breakpoint. If you are going to adjust
+column padding, global flex-basis value, or mobile breakpoint. If you are going to adjust
 the settings it is best to make a copy of the file and include it in your project
 compilation process to avoid any settings being overwritten in the event of a
 Ginger update.

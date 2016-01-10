@@ -46,6 +46,32 @@ Or if you wanted two columns that span 6 each:
 Ginger requires that you always use a `container` element to hold your `row` and
 columns and you must have a `row` element that holds your columns.
 
+## Optional Framework Setup ##
+Additionally, Ginger allows you to specify framework options by attaching helper classes to the `container` element.
+Default settings are:
+- `flex-wrap       : nowrap`
+- `flex-direction  : column`
+- `justify-content : flex-start`
+- `align-items     : center`
+- `align-content   : flex-start`
+
+Classes available for overrides are:
+- `.container--wrap`
+- `.container--direction-row`
+- `.container--justify-content-center`
+- `.container--justify-content-end`
+- `.container--justify-content-space-between`
+- `.container--justify-content-space-around`
+- `.container--align-items-start`
+- `.container--align-items-end`
+- `.container--align-items-baseline`
+- `.container--align-items-stretch`
+- `.container--align-content-center`
+- `.container--align-content-end`
+- `.container--align-content-space-between`
+- `.container--align-content-space-around`
+- `.container--align-content-stretch`
+
 ## Individual Flex-Basis Values ##
 If you'd like to have columns with custom `flex-basis` values, you totally can.
 This requires that you include `js/ginger.js` or `dist/ginger.min.js` in your project. A

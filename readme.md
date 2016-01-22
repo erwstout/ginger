@@ -18,6 +18,17 @@ A fourth option is downloading the latest version of Ginger and including `ginge
 found in the `/dist/` folder into the `<head>` of your document. Only use this method if you don't want to customize
 any settings and/or need a pure CSS build.
 
+When setting up the `scss` file for your project be sure to include the Ginger
+settings file before importing `ginger.scss`. An example `scss` file would look like this:
+
+```scss
+// Include Ginger
+@import 'ginger/settings';
+@import 'ginger/ginger';
+```
+It's important to note that you may get a compiler error if you're not including
+the path to Ginger when compiling.
+
 ## Using Ginger ##
 Ginger is rather easy to use. A basic structure that consists of an element that
 spans 12 columns would look similar to this:
@@ -72,6 +83,11 @@ Classes available for overrides are:
 - `.container--align-content-space-around`
 - `.container--align-content-stretch`
 
+For example, if you wanted the container to justify the content in the center your
+element would look like this:
+
+`<div class="container container--justify-content-center">...</div>`
+
 ## Individual Flex-Basis Values ##
 If you'd like to have columns with custom `flex-basis` values, you totally can.
 This requires that you include `js/ginger.js` or `dist/ginger.min.js` in your project. A
@@ -116,6 +132,12 @@ There are three text classes if you wish to use them for text alignment. Adding
 Adding a class of `stretch` to your column will allow that element to stretch
 to the height of its siblings.
 
+### Visibility Classes ###
+There are two visibility classes to help you hide or show elements for desktop/mobile.
+
+* `only-mobile` - show the element only on mobile
+* `only-desktop` - show the element only on desktop
+
 ## Adjusting Default Settings ##
 Adjusting the settings for Ginger allows you to customize the max-width of rows,
 column padding, global flex-basis value, or mobile breakpoint. If you are going to adjust
@@ -130,12 +152,7 @@ settings it would look something like this:
 @import 'scss/_settings.scss';
 @import 'ginger/ginger';
 ```
-Or if you installed Ginger with bower, it would look something like this:
-```scss
-// vendor files
-@import 'scss/_settings.scss';
-@import 'bower_components/ginger/ginger';
-```
+
 ## Issues / Bugs / Contributions ##
 If you have feedback, find a bug, or want to make contributions, please don't
 hesitate to open an issue or make a pull request.

@@ -26,3 +26,21 @@
 .stretch{
   align-self: stretch;
 }
+
+// Visibility Options
+.only-mobile{
+  display: none;
+}
+
+.only-desktop{
+  display: block;
+}
+
+@media screen and (max-width: $mobile-breakpoint){
+  .only-mobile{
+    display: block;
+  }
+  .only-desktop{
+    display: none;
+  }
+}

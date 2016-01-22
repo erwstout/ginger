@@ -5,7 +5,8 @@
 * Written by Eric Stout (@buschschwick)
 */
 
-@import 'settings/settings';
+// Only use these settings when compiling Ginger with default settings
+//@import 'settings/settings';
 
 @import 'components/container';
 @import 'components/row';

@@ -4,8 +4,8 @@
 *[class^="col-"]{
   flex: 0 1 $flex-basis;
   box-sizing: border-box;
-  padding-left: $col-padding !default;
-  padding-right: $col-padding !default;
+  padding-left: $col-padding;
+  padding-right: $col-padding;
 }
 
 // 12 Columns

@@ -2,7 +2,7 @@
 .row{
   flex: 0 1 $flex-basis;
   width: 100%;
-  max-width: $row-max-width !default;
+  max-width: $row-max-width;
   position: relative;
   display: flex;
   flex-wrap: wrap;

@@ -152,12 +152,7 @@ settings it would look something like this:
 @import 'scss/_settings.scss';
 @import 'ginger/ginger';
 ```
-Or if you installed Ginger with bower, it would look something like this:
-```scss
-// vendor files
-@import 'scss/_settings.scss';
-@import 'bower_components/ginger/ginger';
-```
+
 ## Issues / Bugs / Contributions ##
 If you have feedback, find a bug, or want to make contributions, please don't
 hesitate to open an issue or make a pull request.

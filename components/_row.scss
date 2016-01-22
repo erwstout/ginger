@@ -1,8 +1,8 @@
 // Row
 .row{
-  flex: 1 1 $flex-basis;
+  flex: 0 1 $flex-basis;
   width: 100%;
-  max-width: $row-max-width;
+  max-width: $row-max-width !default;
   position: relative;
   display: flex;
   flex-wrap: wrap;

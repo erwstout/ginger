@@ -1,7 +1,7 @@
 /*
 * Ginger
 * A minimal flexbox grid system named after a cute dog.
-* Version 0.3.1
+* Version 0.3.2
 * Written by Eric Stout (@buschschwick)
 */
 .container {
@@ -118,7 +118,8 @@
           flex: 0 1 auto;
   box-sizing: border-box;
   padding-left: 0.8rem;
-  padding-right: 0.8rem; }
+  padding-right: 0.8rem;
+  overflow: hidden; }
 
 .col-12 {
   -webkit-flex-basis: 100%;

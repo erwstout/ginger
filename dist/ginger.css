@@ -118,7 +118,8 @@
           flex: 0 1 auto;
   box-sizing: border-box;
   padding-left: 0.8rem;
-  padding-right: 0.8rem; }
+  padding-right: 0.8rem;
+  overflow: hidden; }
 
 .col-12 {
   -webkit-flex-basis: 100%;

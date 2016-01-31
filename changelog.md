@@ -2,6 +2,11 @@
 All notable changes to this project will be documented in this file.
 This project adheres to [Semantic Versioning](http://semver.org/).
 
+## [0.3.3] - 2016-01-31
+## Fixed and Changed
+- Fixes column overflow issues. Updates all references to the Git Repo to show new
+username. 
+
 ## [0.2.2] - 2016-01-08
 ### Changed
 - How the width of columns are calculated. Columns were using `width` to set their

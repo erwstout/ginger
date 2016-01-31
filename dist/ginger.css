@@ -2,7 +2,7 @@
 * Ginger
 * A minimal flexbox grid system named after a cute dog.
 * Version 0.3.2
-* Written by Eric Stout (@buschschwick)
+* Written by Eric Stout (@erwstout)
 */
 .container {
   position: relative;
@@ -52,18 +52,22 @@
   .container--align-items-start {
     -webkit-align-items: flex-start;
         -ms-flex-align: start;
+                -ms-grid-row-align: flex-start;
             align-items: flex-start; }
   .container--align-items-end {
     -webkit-align-items: flex-end;
         -ms-flex-align: end;
+                -ms-grid-row-align: flex-end;
             align-items: flex-end; }
   .container--align-items-baseline {
     -webkit-align-items: baseline;
         -ms-flex-align: baseline;
+                -ms-grid-row-align: baseline;
             align-items: baseline; }
   .container--align-items-stretch {
     -webkit-align-items: stretch;
         -ms-flex-align: stretch;
+                -ms-grid-row-align: stretch;
             align-items: stretch; }
   .container--align-content-center {
     -webkit-align-content: center;

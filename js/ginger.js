@@ -1,6 +1,6 @@
 /* Ginger JS
 * Author: Eric Stout <ericwstout.com>
-* GitHub: https://github.com/buschschwick/ginger
+* GitHub: https://github.com/erwstout/ginger
 */
 
 $("[class^=flex-basis-]").each(function(){

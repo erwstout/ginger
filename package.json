@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/buschschwick/ginger.git"
+    "url": "git+https://github.com/erwstout/ginger.git"
   },
   "keywords": [
     "Grid",
@@ -20,9 +20,9 @@
   "author": "Eric Stout <ericwstout@gmail.com>",
   "license": "GPL-3.0",
   "bugs": {
-    "url": "https://github.com/buschschwick/ginger/issues"
+    "url": "https://github.com/erwstout/ginger/issues"
   },
-  "homepage": "https://github.com/buschschwick/ginger#readme",
+  "homepage": "https://github.com/erwstout/ginger#readme",
   "devDependencies": {
     "gulp": "^3.9.0",
     "gulp-autoprefixer": "^3.1.0",

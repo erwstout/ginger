@@ -18,7 +18,7 @@
     "framework"
   ],
   "author": "Eric Stout <ericwstout@gmail.com>",
-  "license": "GPL-3.0",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/erwstout/ginger/issues"
   },

@@ -88,10 +88,31 @@ element would look like this:
 
 `<div class="container container--justify-content-center">...</div>`
 
+You can also use these same naming conventions to add overrides to `.row`. Classes
+available for `.row` overrides are:
+
+- `.row--wrap`
+- `.row--direction-row`
+- `.row--justify-content-center`
+- `.row--justify-content-end`
+- `.row--justify-content-space-between`
+- `.row--justify-content-space-around`
+- `.row--align-items-start`
+- `.row--align-items-end`
+- `.row--align-items-baseline`
+- `.row--align-items-stretch`
+- `.row--align-content-center`
+- `.row--align-content-end`
+- `.row--align-content-space-between`
+- `.row--align-content-space-around`
+- `.row--align-content-stretch`
+
 ## Individual Flex-Basis Values ##
 If you'd like to have columns with custom `flex-basis` values, you totally can.
 This requires that you include `js/ginger.js` or `dist/ginger.min.js` in your project. A
-custom `flex-basis` setup would look something like this:
+custom `flex-basis` setup would look something like this (Note this is not included
+  in the quick setup version of Ginger):
+  
 ```html
 <div class="container">
   <div class="row">

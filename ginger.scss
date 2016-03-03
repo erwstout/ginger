@@ -1,12 +1,12 @@
 /*
 * Ginger
 * A minimal flexbox grid system named after a cute dog.
-* Version 0.3.3
+* Version 1.0.0
 * Written by Eric Stout (@erwstout)
 */
 
 // Only use these settings when compiling Ginger with default settings
-//@import 'settings/settings';
+@import 'settings/settings';
 
 @import 'components/container';
 @import 'components/row';

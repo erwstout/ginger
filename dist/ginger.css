@@ -281,13 +281,13 @@
           align-self: stretch; }
 
 .only-mobile {
-  display: none; }
+  display: none !important; }
 
 .only-desktop {
-  display: block; }
+  display: block !important; }
 
 @media screen and (max-width: 40em) {
   .only-mobile {
-    display: block; }
+    display: block !important; }
   .only-desktop {
-    display: none; } }
+    display: none !important; } }

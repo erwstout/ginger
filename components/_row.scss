@@ -21,21 +21,17 @@ $row-align-content   : flex-start !default;
     flex-wrap : nowrap;
   }
 
-  &--direction-row {
-    flex-direction : row;
-  }
-
   // justify classes
   &--justify-content-center {
     justify-content : center;
   }
 
-  &--justify-content-end {
-    justify-content : flex-end;
+  &--justify-content-start {
+    justify-content : flex-start;
   }
 
-  &--justify-content-space-between {
-    justify-content: space-between;
+  &--justify-content-end {
+    justify-content : flex-end;
   }
 
   &--justify-content-space-around {

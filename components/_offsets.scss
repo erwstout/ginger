@@ -1,0 +1,10 @@
+// Column Offsets
+
+@media screen and (min-width: ($small-breakpoint + 0.0625) ){
+  @for $i from 1 through 11 {
+      $offset: 8.333333% * $i;
+      .offset-#{$i} {
+          margin-left: $offset;
+      }
+  }
+}

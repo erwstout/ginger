@@ -1,6 +1,6 @@
 {
   "name": "ginger-grid",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "A minimal flexbox grid system named after a cute dog.",
   "main": "ginger.scss",
   "scripts": {

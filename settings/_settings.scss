@@ -10,5 +10,6 @@ $col-padding: 0.80rem;
 // Flex Basis Value
 $flex-basis: auto;
 
-// Mobile Breakpoint Size
-$mobile-breakpoint: 40em;
+// Small Breakpoint Size
+// ( Use an em or rem value only for offsets to work correctly)
+$small-breakpoint: 40em;

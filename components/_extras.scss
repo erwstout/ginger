@@ -36,7 +36,7 @@
   display: block !important;
 }
 
-@media screen and (max-width: $mobile-breakpoint){
+@media screen and (max-width: $small-breakpoint){
   .only-mobile, .small-only{
     display: block !important;
   }

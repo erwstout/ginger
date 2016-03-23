@@ -10,64 +10,11 @@
   min-width: 0;
 }
 
-// 12 Columns
-.col-12{
-  flex-basis: 100%;
-}
-
-// 11 Columns
-.col-11{
-  flex-basis: 91.66666%;
-}
-
-// 10 Columns
-.col-10{
-  flex-basis: 83.33333%;
-}
-
-// 9 Columns
-.col-9{
-  flex-basis: 75%;
-}
-
-// 8 Columns
-.col-8{
-  flex-basis: 66.66666%;
-}
-
-// 7 Columns
-.col-7{
-  flex-basis: 58.33333%;
-}
-
-// 6 Columns
-.col-6{
-  flex-basis: 50%;
-}
-
-// 5 Columns
-.col-5{
-  flex-basis: 41.66666%;
-}
-
-// 4 Columns
-.col-4{
-  flex-basis: 33.33333%;
-}
-
-// 3 Columns
-.col-3{
-  flex-basis: 25%;
-}
-
-// 2 Columns
-.col-2{
-  flex-basis: 16.66666%;
-}
-
-// 1 Columns
-.col-1{
-  flex-basis: 8.33333%;
+@for $i from 1 through 12 {
+    $flex-basis: 8.333333% * $i;
+    .col-#{$i} {
+        flex-basis: $flex-basis;
+    }
 }
 
 // Mobile Breakpoint Adjustments

@@ -16,8 +16,8 @@
     }
 }
 
-// Mobile Breakpoint Adjustments
-@media screen and (max-width: $mobile-breakpoint){
+// Small Breakpoint Adjustments
+@media screen and (max-width: $small-breakpoint){
 
   // default columns go full width
   *[class^="col-"]{

@@ -1,5 +1,4 @@
-![Ginger Logo]
-(http://erwstout.github.io/ginger/images/GingerLogo.png)
+![Ginger Logo](http://erwstout.github.io/ginger/images/GingerLogo.png)
 
 # Ginger #
 Ginger is a minimal flexbox 12 column grid system named after a cute dog. It doesn't give

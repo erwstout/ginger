@@ -28,19 +28,19 @@
 }
 
 // Visibility Options
-.only-mobile{
+.only-mobile, .small-only{
   display: none !important;
 }
 
-.only-desktop{
+.only-desktop, .desktop-only{
   display: block !important;
 }
 
 @media screen and (max-width: $mobile-breakpoint){
-  .only-mobile{
+  .only-mobile, .small-only{
     display: block !important;
   }
-  .only-desktop{
+  .only-desktop, .desktop-only{
     display: none !important;
   }
 }

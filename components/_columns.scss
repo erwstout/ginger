@@ -18,8 +18,18 @@
 
 // Mobile Breakpoint Adjustments
 @media screen and (max-width: $mobile-breakpoint){
+
+  // default columns go full width
   *[class^="col-"]{
     flex: 1 1 $flex-basis;
     flex-basis: 100%;
+  }
+
+  // small columns (.sm-col-6, etc.)
+  @for $i from 1 through 12 {
+    $flex-basis: 8.333333% * $i;
+    .sm-col-#{$i} {
+        flex-basis: $flex-basis;
+    }
   }
 }

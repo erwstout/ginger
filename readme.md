@@ -26,7 +26,7 @@ settings file before importing `ginger.scss`. An example `scss` file would look 
 @import 'ginger/ginger';
 ```
 It's important to note that you may get a compiler error if you're not including
-the path to Ginger when compiling.
+the path to Ginger when compiling your styles.
 
 ## Using Ginger ##
 Ginger is rather easy to use. A basic structure that consists of an element that

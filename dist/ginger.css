@@ -1,7 +1,7 @@
 /*
 * Ginger
 * A minimal flexbox grid system named after a cute dog.
-* Version 0.3.3
+* Version 1.0.0
 * Written by Eric Stout (@erwstout)
 */
 .container {
@@ -260,6 +260,30 @@
             flex-basis: 100%;
     box-sizing: border-box; } }
 
+@media screen and (min-width: 40.0625em) {
+  .offset-1 {
+    margin-left: 8.33333%; }
+  .offset-2 {
+    margin-left: 16.66667%; }
+  .offset-3 {
+    margin-left: 25.0%; }
+  .offset-4 {
+    margin-left: 33.33333%; }
+  .offset-5 {
+    margin-left: 41.66666%; }
+  .offset-6 {
+    margin-left: 50.0%; }
+  .offset-7 {
+    margin-left: 58.33333%; }
+  .offset-8 {
+    margin-left: 66.66666%; }
+  .offset-9 {
+    margin-left: 75.0%; }
+  .offset-10 {
+    margin-left: 83.33333%; }
+  .offset-11 {
+    margin-left: 91.66666%; } }
+
 .text-left {
   text-align: left; }
 
@@ -280,14 +304,14 @@
       -ms-flex-item-align: stretch;
           align-self: stretch; }
 
-.only-mobile {
+.only-mobile, .small-only {
   display: none !important; }
 
-.only-desktop {
+.only-desktop, .desktop-only {
   display: block !important; }
 
 @media screen and (max-width: 40em) {
-  .only-mobile {
+  .only-mobile, .small-only {
     display: block !important; }
-  .only-desktop {
+  .only-desktop, .desktop-only {
     display: none !important; } }

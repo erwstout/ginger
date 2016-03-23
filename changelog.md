@@ -2,6 +2,10 @@
 All notable changes to this project will be documented in this file.
 This project adheres to [Semantic Versioning](http://semver.org/).
 
+## [1.1.0] - 2016-03-22
+## Fixed and Changed
+- Fixed various open issues on GitHub, adds column offset support and small column support, adds loops for `flex-basis` to minimize footprint.
+
 ## [1.0.0] - 2016-03-01
 ## Fixed and Changed
 - Adds row override support. Fixes visibility classes to have important tags.

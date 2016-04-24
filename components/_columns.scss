@@ -1,7 +1,7 @@
 // Columns
 
 // Base column styles
-*[class*=" col-"], *[class*=" sm-col-"], *[class*=" flex-basis-"]{
+*[class*="col-"], *[class*="sm-col-"], *[class*="flex-basis-"]{
   flex: 0 1 $flex-basis;
   box-sizing: border-box;
   padding-left: $col-padding;

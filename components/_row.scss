@@ -43,6 +43,10 @@ $row-align-content   : flex-start !default;
     align-items : flex-start;
   }
 
+  &--align-items-center {
+    align-items : center;
+  }
+
   &--align-items-end {
     align-items : flex-end;
   }

@@ -37,10 +37,22 @@
 }
 
 @media screen and (max-width: $small-breakpoint){
+  // display classes
   .only-mobile, .small-only{
     display: block !important;
   }
   .only-desktop, .desktop-only{
     display: none !important;
+  }
+
+  // text classes
+  .sm-text-left{
+    text-align: left !important;
+  }
+  .sm-text-center{
+    text-align: center !important;
+  }
+  .sm-text-right{
+    text-align: right !important;
   }
 }

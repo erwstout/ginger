@@ -21,6 +21,10 @@ $row-align-content   : flex-start !default;
     flex-wrap : nowrap;
   }
 
+  &--reverse {
+    flex-direction: row-reverse;
+  }
+
   // justify classes
   &--justify-content-center {
     justify-content : center;

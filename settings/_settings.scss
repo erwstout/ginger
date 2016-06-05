@@ -1,15 +1,18 @@
 // Settings
 // Adjust any of these variables to your liking, or don't. :-)
 
+// Container Max Width
+$container-max-width: 100% !default;
+
 // Max-width of rows
-$row-max-width: 75rem;
+$row-max-width: 75rem !default;
 
 // Column Padding
-$col-padding: 0.80rem;
+$col-padding: 0.80rem !default;
 
 // Flex Basis Value
-$flex-basis: auto;
+$flex-basis: auto !default;
 
 // Small Breakpoint Size
 // ( Use an em or rem value only for offsets to work correctly)
-$small-breakpoint: 43em;
+$small-breakpoint: 43em !default;

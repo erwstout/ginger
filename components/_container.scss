@@ -8,6 +8,7 @@ $align-content   : flex-start !default;
 .container {
   position        : relative;
   width           : 100%;
+  max-width       : $container-max-width; 
   display         : flex;
   flex-wrap       : $flex-wrap;
   flex-direction  : $flex-direction;

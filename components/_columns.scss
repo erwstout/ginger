@@ -9,11 +9,17 @@
   min-width: 0;
 }
 
+
 @for $i from 1 through 12 {
     $flex-basis: 8.333333% * $i;
     .col-#{$i} {
         flex-basis: $flex-basis;
     }
+}
+
+// Col Grow Option
+.col-grow{
+  flex: 1 1 $flex-basis;
 }
 
 // Small Breakpoint Adjustments

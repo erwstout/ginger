@@ -15,3 +15,16 @@
     }
   }
 }
+
+// IE 10/11 Work Around
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+  @for $i from 1 through $max-block-grid {
+    $width: 100% / $i;
+    .block-grid-#{$i}{
+      .col{
+        width: $width;
+        flex-basis: auto;
+      }
+    }
+  }
+}

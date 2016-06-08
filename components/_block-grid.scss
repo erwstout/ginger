@@ -1,0 +1,17 @@
+// Block Grid
+*[class*="block-grid-"]{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+@for $i from 1 through $max-block-grid {
+  $width: 100% / $i;
+  .block-grid-#{$i}{
+    .col{
+      flex-basis: $width;
+    }
+  }
+}

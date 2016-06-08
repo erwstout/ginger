@@ -188,7 +188,7 @@
         -ms-flex-line-pack: stretch;
             align-content: stretch; }
 
-*[class*="col-"], *[class*="sm-col-"], *[class*="flex-basis-"] {
+*[class*="col-"], *[class*="sm-col-"], *[class*="flex-basis-"], .col {
   -webkit-flex: 0 1 auto;
       -ms-flex: 0 1 auto;
           flex: 0 1 auto;

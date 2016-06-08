@@ -8,6 +8,7 @@
 .container {
   position: relative;
   width: 100%;
+  max-width: 100%;
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
@@ -25,7 +26,8 @@
           align-items: center;
   -webkit-align-content: flex-start;
       -ms-flex-line-pack: start;
-          align-content: flex-start; }
+          align-content: flex-start;
+  margin: 0 auto; }
   .container--wrap {
     -webkit-flex-wrap: wrap;
         -ms-flex-wrap: wrap;
@@ -120,6 +122,10 @@
     -webkit-flex-wrap: nowrap;
         -ms-flex-wrap: nowrap;
             flex-wrap: nowrap; }
+  .row--reverse {
+    -webkit-flex-direction: row-reverse;
+        -ms-flex-direction: row-reverse;
+            flex-direction: row-reverse; }
   .row--justify-content-center {
     -webkit-justify-content: center;
         -ms-flex-pack: center;
@@ -251,7 +257,12 @@
       -ms-flex-preferred-size: 100.0%;
           flex-basis: 100.0%; }
 
-@media screen and (max-width: 40em) {
+.col-grow {
+  -webkit-flex: 1 1 100.0%;
+      -ms-flex: 1 1 100.0%;
+          flex: 1 1 100.0%; }
+
+@media screen and (max-width: 43em) {
   *[class^="col-"] {
     -webkit-flex: 1 1 100.0%;
         -ms-flex: 1 1 100.0%;
@@ -308,7 +319,7 @@
         -ms-flex-preferred-size: 100.0%;
             flex-basis: 100.0%; } }
 
-@media screen and (min-width: 40.0625em) {
+@media screen and (min-width: 43.0625em) {
   .offset-1 {
     margin-left: 8.33333%; }
   .offset-2 {
@@ -358,8 +369,14 @@
 .only-desktop, .desktop-only {
   display: block !important; }
 
-@media screen and (max-width: 40em) {
+@media screen and (max-width: 43em) {
   .only-mobile, .small-only {
     display: block !important; }
   .only-desktop, .desktop-only {
-    display: none !important; } }
+    display: none !important; }
+  .sm-text-left {
+    text-align: left !important; }
+  .sm-text-center {
+    text-align: center !important; }
+  .sm-text-right {
+    text-align: right !important; } }

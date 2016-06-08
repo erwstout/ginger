@@ -46,14 +46,13 @@
   }
 
   // text classes
-  // TODO: Check if !important tags are really needed with testing
   .sm-text-left{
-    text-align: left !important;
+    text-align: left;
   }
   .sm-text-center{
-    text-align: center !important;
+    text-align: center;
   }
   .sm-text-right{
-    text-align: right !important;
+    text-align: right;
   }
 }

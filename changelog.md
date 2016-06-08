@@ -2,6 +2,9 @@
 All notable changes to this project will be documented in this file.
 This project adheres to [Semantic Versioning](http://semver.org/).
 
+## [1.1.3] - 2016-06-07
+## Fixed and Changed
+- Fixed IE10/11 flexbox bug that caused columns to roll.
 
 ## [1.1.1] - 2016-04-23
 ## Fixed and Changed

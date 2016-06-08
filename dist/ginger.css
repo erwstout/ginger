@@ -1,7 +1,7 @@
 /*
 * Ginger
 * A minimal flexbox grid system named after a cute dog.
-* Version 1.1.2
+* Version 1.1.3
 * Written by Eric Stout (@erwstout)
 * http://ericwstout.com
 */
@@ -257,6 +257,68 @@
       -ms-flex-preferred-size: 100.0%;
           flex-basis: 100.0%; }
 
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+  .col-1 {
+    width: 8.33333%;
+    -webkit-flex-basis: auto;
+        -ms-flex-preferred-size: auto;
+            flex-basis: auto; }
+  .col-2 {
+    width: 16.66667%;
+    -webkit-flex-basis: auto;
+        -ms-flex-preferred-size: auto;
+            flex-basis: auto; }
+  .col-3 {
+    width: 25.0%;
+    -webkit-flex-basis: auto;
+        -ms-flex-preferred-size: auto;
+            flex-basis: auto; }
+  .col-4 {
+    width: 33.33333%;
+    -webkit-flex-basis: auto;
+        -ms-flex-preferred-size: auto;
+            flex-basis: auto; }
+  .col-5 {
+    width: 41.66666%;
+    -webkit-flex-basis: auto;
+        -ms-flex-preferred-size: auto;
+            flex-basis: auto; }
+  .col-6 {
+    width: 50.0%;
+    -webkit-flex-basis: auto;
+        -ms-flex-preferred-size: auto;
+            flex-basis: auto; }
+  .col-7 {
+    width: 58.33333%;
+    -webkit-flex-basis: auto;
+        -ms-flex-preferred-size: auto;
+            flex-basis: auto; }
+  .col-8 {
+    width: 66.66666%;
+    -webkit-flex-basis: auto;
+        -ms-flex-preferred-size: auto;
+            flex-basis: auto; }
+  .col-9 {
+    width: 75.0%;
+    -webkit-flex-basis: auto;
+        -ms-flex-preferred-size: auto;
+            flex-basis: auto; }
+  .col-10 {
+    width: 83.33333%;
+    -webkit-flex-basis: auto;
+        -ms-flex-preferred-size: auto;
+            flex-basis: auto; }
+  .col-11 {
+    width: 91.66666%;
+    -webkit-flex-basis: auto;
+        -ms-flex-preferred-size: auto;
+            flex-basis: auto; }
+  .col-12 {
+    width: 100.0%;
+    -webkit-flex-basis: auto;
+        -ms-flex-preferred-size: auto;
+            flex-basis: auto; } }
+
 .col-grow {
   -webkit-flex: 1 1 100.0%;
       -ms-flex: 1 1 100.0%;
@@ -318,6 +380,68 @@
     -webkit-flex-basis: 100.0%;
         -ms-flex-preferred-size: 100.0%;
             flex-basis: 100.0%; } }
+
+@media screen and (max-width: 43em) and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+  .sm-col-1 {
+    width: 8.33333%;
+    -webkit-flex-basis: auto;
+        -ms-flex-preferred-size: auto;
+            flex-basis: auto; }
+  .sm-col-2 {
+    width: 16.66667%;
+    -webkit-flex-basis: auto;
+        -ms-flex-preferred-size: auto;
+            flex-basis: auto; }
+  .sm-col-3 {
+    width: 25.0%;
+    -webkit-flex-basis: auto;
+        -ms-flex-preferred-size: auto;
+            flex-basis: auto; }
+  .sm-col-4 {
+    width: 33.33333%;
+    -webkit-flex-basis: auto;
+        -ms-flex-preferred-size: auto;
+            flex-basis: auto; }
+  .sm-col-5 {
+    width: 41.66666%;
+    -webkit-flex-basis: auto;
+        -ms-flex-preferred-size: auto;
+            flex-basis: auto; }
+  .sm-col-6 {
+    width: 50.0%;
+    -webkit-flex-basis: auto;
+        -ms-flex-preferred-size: auto;
+            flex-basis: auto; }
+  .sm-col-7 {
+    width: 58.33333%;
+    -webkit-flex-basis: auto;
+        -ms-flex-preferred-size: auto;
+            flex-basis: auto; }
+  .sm-col-8 {
+    width: 66.66666%;
+    -webkit-flex-basis: auto;
+        -ms-flex-preferred-size: auto;
+            flex-basis: auto; }
+  .sm-col-9 {
+    width: 75.0%;
+    -webkit-flex-basis: auto;
+        -ms-flex-preferred-size: auto;
+            flex-basis: auto; }
+  .sm-col-10 {
+    width: 83.33333%;
+    -webkit-flex-basis: auto;
+        -ms-flex-preferred-size: auto;
+            flex-basis: auto; }
+  .sm-col-11 {
+    width: 91.66666%;
+    -webkit-flex-basis: auto;
+        -ms-flex-preferred-size: auto;
+            flex-basis: auto; }
+  .sm-col-12 {
+    width: 100.0%;
+    -webkit-flex-basis: auto;
+        -ms-flex-preferred-size: auto;
+            flex-basis: auto; } }
 
 @media screen and (min-width: 43.0625em) {
   .offset-1 {

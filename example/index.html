@@ -1,0 +1,187 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>Ginger Grid Example</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="apple-touch-icon" href="apple-touch-icon.png">
+        <!-- Place favicon.ico in the root directory -->
+
+        <link rel="stylesheet" href="../dist/ginger.min.css">
+
+        <style>
+          .col-1{
+            background: rgb(9, 111, 210);
+          }
+          .col-2{
+            background: rgb(241, 89, 196);
+          }
+          .col-3{
+            background: rgb(21, 193, 59);
+          }
+          .col-4{
+            background: rgb(219, 9, 156);
+          }
+          .col-5{
+            background: rgb(242, 241, 70);
+          }
+          .col-6{
+            background: rgb(123, 54, 247);
+          }
+          .col-7{
+            background: rgb(147, 49, 80);
+          }
+          .col-8{
+            background: rgb(49, 147, 62);
+          }
+          .col-9{
+            background: rgb(201, 197, 97);
+          }
+          .col-10{
+            background: rgb(18, 95, 198);
+          }
+          .col-11{
+            background: rgb(41, 243, 249);
+          }
+          .col-12{
+            background: rgb(191, 237, 148);
+          }
+        </style>
+
+    </head>
+    <body>
+
+      <p>Columns, each within their own rows</p>
+<div class="container">
+  <div class="row">
+    <div class="col-12">
+      12 columns
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-11">
+      11 Columns
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-10">
+      10 Columns
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-9">
+      9 Columns
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-8">
+      8 Columns
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-7">
+      7 Columns
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-6">
+      6 Columns
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-5">
+      5 Columns
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-4">
+      4 Columns
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-3">
+      3 Columns
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-2">
+      2 Columns
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-1">
+      1 Columns
+    </div>
+  </div>
+</div>
+
+<p>Columns side by side, each within their own row</p>
+
+<div class="container">
+  <div class="row">
+    <div class="col-6">
+      6 Columns
+    </div>
+    <div class="col-6">
+      6 Columns
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-4">
+      4 Columns
+    </div>
+    <div class="col-8">
+      8 Columns
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-3">
+      3 Columns
+    </div>
+    <div class="col-5">
+      5 Columns
+    </div>
+    <div class="col-4">
+      4 Columns
+    </div>
+  </div>
+</div>
+
+<p>Also has extra abilities, like text alignment and centering / pushing columns</p>
+
+<div class="container">
+  <div class="row">
+    <div class="col-6 text-center col-centered">
+      6 Columns, Column Centered, Text Centered
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-7 col-right">
+      7 columns, "floated" right
+    </div>
+  </div>
+</div>
+
+<div class="container">
+  <!-- Flex Basis Test -->
+  <p class="text-left">You can also give it your own flex basis value.</p>
+  <div class="row">
+    <div class="flex-basis-650" style="background: pink;">
+      Flex Basis 650
+    </div>
+    <div class="flex-basis-300" style="background: red;">
+      Flex Basis 300
+    </div>
+  </div>
+</div>
+
+
+        <script src="https://code.jquery.com/jquery-1.12.2.min.js"></script>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.12.2.min.js"><\/script>')</script>
+        <script src="../dist/ginger.min.js"></script>
+
+    </body>
+</html>

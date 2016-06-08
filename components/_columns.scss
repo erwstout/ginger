@@ -9,11 +9,23 @@
   min-width: 0;
 }
 
+// standard column sizing
 @for $i from 1 through 12 {
     $flex-basis: 8.333333% * $i;
     .col-#{$i} {
         flex-basis: $flex-basis;
     }
+}
+
+// column sizing for IE10/11
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+  @for $i from 1 through 12 {
+    $width: 8.333333% * $i;
+    .col-#{$i} {
+        width: $width;
+        flex-basis: auto;
+    }
+  }
 }
 
 // Small Breakpoint Adjustments
@@ -30,6 +42,17 @@
     $flex-basis: 8.333333% * $i;
     .sm-col-#{$i} {
         flex-basis: $flex-basis;
+    }
+  }
+}
+
+// Small Breakpoint Adjustments for IE10/11
+@media screen and (max-width: $small-breakpoint) and (-ms-high-contrast: none), (-ms-high-contrast: active){
+  @for $i from 1 through 12 {
+    $width: 8.333333% * $i;
+    .sm-col-#{$i} {
+      width: $width;
+      flex-basis: auto;
     }
   }
 }

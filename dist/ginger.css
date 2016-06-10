@@ -1,7 +1,7 @@
 /*
 * Ginger
 * A minimal flexbox grid system named after a cute dog.
-* Version 1.1.2
+* Version 1.1.3
 * Written by Eric Stout (@erwstout)
 * http://ericwstout.com
 */
@@ -53,22 +53,18 @@
   .container--align-items-start {
     -webkit-align-items: flex-start;
         -ms-flex-align: start;
-                -ms-grid-row-align: flex-start;
             align-items: flex-start; }
   .container--align-items-end {
     -webkit-align-items: flex-end;
         -ms-flex-align: end;
-                -ms-grid-row-align: flex-end;
             align-items: flex-end; }
   .container--align-items-baseline {
     -webkit-align-items: baseline;
         -ms-flex-align: baseline;
-                -ms-grid-row-align: baseline;
             align-items: baseline; }
   .container--align-items-stretch {
     -webkit-align-items: stretch;
         -ms-flex-align: stretch;
-                -ms-grid-row-align: stretch;
             align-items: stretch; }
   .container--align-content-center {
     -webkit-align-content: center;
@@ -139,27 +135,22 @@
   .row--align-items-start {
     -webkit-align-items: flex-start;
         -ms-flex-align: start;
-                -ms-grid-row-align: flex-start;
             align-items: flex-start; }
   .row--align-items-center {
     -webkit-align-items: center;
         -ms-flex-align: center;
-                -ms-grid-row-align: center;
             align-items: center; }
   .row--align-items-end {
     -webkit-align-items: flex-end;
         -ms-flex-align: end;
-                -ms-grid-row-align: flex-end;
             align-items: flex-end; }
   .row--align-items-baseline {
     -webkit-align-items: baseline;
         -ms-flex-align: baseline;
-                -ms-grid-row-align: baseline;
             align-items: baseline; }
   .row--align-items-stretch {
     -webkit-align-items: stretch;
         -ms-flex-align: stretch;
-                -ms-grid-row-align: stretch;
             align-items: stretch; }
   .row--align-content-center {
     -webkit-align-content: center;
@@ -314,7 +305,7 @@
             flex-basis: auto; } }
 
 @media screen and (max-width: 40em) {
-  *[class^="col-"] {
+  *[class*="col-"] {
     -webkit-flex: 1 1 100.0%;
         -ms-flex: 1 1 100.0%;
             flex: 1 1 100.0%;

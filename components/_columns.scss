@@ -35,6 +35,11 @@
   flex: 1 1 $flex-basis;
 }
 
+.col-no-pad{
+  padding-left: 0;
+  padding-right: 0;
+}
+
 // Small Breakpoint Adjustments
 @media screen and (max-width: $small-breakpoint){
 

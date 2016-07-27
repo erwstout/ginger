@@ -17,6 +17,10 @@ $row-align-content   : flex-start !default;
   align-items     : $row-align-items;
   align-content   : $row-align-content;
 
+  &--full-width{
+    max-width: 100%;
+  }
+
   &--no-wrap {
     flex-wrap : nowrap;
   }

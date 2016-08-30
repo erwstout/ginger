@@ -1,0 +1,150 @@
+// Block Grid
+$block-grid-flex-direction: row !default;
+$block-grid-justify-content: space-between !default;
+$block-grid-align-items: flex-start !default;
+$block-grid-flex-wrap: wrap !default;
+
+*[class*="block-grid-"]{
+  display: flex;
+  flex-direction: $block-grid-flex-direction;
+  justify-content: $block-grid-justify-content;
+  align-items: $block-grid-align-items;
+  flex-wrap: $block-grid-flex-wrap;
+  &--no-wrap {
+    flex-wrap : nowrap;
+  }
+
+  &--reverse {
+    flex-direction: row-reverse;
+  }
+
+  // justify classes
+  &--justify-content-center {
+    justify-content : center;
+  }
+
+  &--justify-content-start {
+    justify-content : flex-start;
+  }
+
+  &--justify-content-end {
+    justify-content : flex-end;
+  }
+
+  &--justify-content-space-around {
+    justify-content : space-around;
+  }
+
+  // align classes
+  &--align-items-start {
+    align-items : flex-start;
+  }
+
+  &--align-items-center {
+    align-items : center;
+  }
+
+  &--align-items-end {
+    align-items : flex-end;
+  }
+
+  &--align-items-baseline {
+    align-items : baseline;
+  }
+
+  &--align-items-stretch {
+    align-items : stretch;
+  }
+
+  &--align-content-center {
+    align-content : center;
+  }
+
+  &--align-content-end {
+    align-content : flex-end;
+  }
+
+  &--align-content-space-between {
+    align-content : space-between;
+  }
+
+  &--align-content-space-around {
+    align-content : space-around;
+  }
+
+  &--align-content-stretch {
+    align-content : stretch;
+  }
+}
+
+@for $i from 1 through $max-block-grid {
+  $width: 100% / $i;
+  .block-grid-#{$i}{
+    .col{
+      flex-basis: $width;
+    }
+  }
+}
+
+// IE 10/11 Work Around
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+  @for $i from 1 through $max-block-grid {
+    $width: 100% / $i;
+    .block-grid-#{$i}{
+      .col{
+        width: $width;
+        flex-basis: auto;
+      }
+    }
+  }
+}
+
+// Medium Breakpoint
+@media screen and (max-width: $medium-breakpoint){
+  @for $i from 1 through $max-block-grid {
+    $width: 100% / $i;
+    .md-block-grid-#{$i}{
+      .col{
+        flex-basis: $width;
+      }
+    }
+  }
+
+  // IE 10/11 Work Around
+  @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+    @for $i from 1 through $max-block-grid {
+      $width: 100% / $i;
+      .md-block-grid-#{$i}{
+        .col{
+          width: $width;
+          flex-basis: auto;
+        }
+      }
+    }
+  }
+}
+
+// Small Breakpoint
+@media screen and (max-width: $small-breakpoint){
+  @for $i from 1 through $max-block-grid {
+    $width: 100% / $i;
+    .sm-block-grid-#{$i}{
+      .col{
+        flex-basis: $width;
+      }
+    }
+  }
+
+  // IE 10/11 Work Around
+  @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+    @for $i from 1 through $max-block-grid {
+      $width: 100% / $i;
+      .sm-block-grid-#{$i}{
+        .col{
+          width: $width;
+          flex-basis: auto;
+        }
+      }
+    }
+  }
+}

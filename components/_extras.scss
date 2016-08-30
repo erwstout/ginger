@@ -28,15 +28,51 @@
 }
 
 // Visibility Options
-.small-only{
+.small-only, .sm-only{
+  display: none !important;
+}
+
+.md-only{
   display: none !important;
 }
 
 .desktop-only{
-  display: block !important;
+  display: flex !important;
+  &--block{
+    display: block !important;
+  }
+  &--inline-block{
+    display: inline-block !important;
+  }
+  &--inline-flex{
+    display: inline-flex !important;
+  }
 }
 
 @media screen and (max-width: $medium-breakpoint){
+
+  // display classes
+  .small-only, .sm-only{
+    display: none !important;
+  }
+
+  .md-only{
+    display: flex !important;
+    &--block{
+      display: block !important;
+    }
+    &--inline-block{
+      display: inline-block !important;
+    }
+    &--inline-flex{
+      display: inline-flex !important;
+    }
+  }
+
+  .desktop-only{
+    display: none !important;
+  }
+
   // text classes
   .md-text-left{
     text-align: left;
@@ -51,9 +87,23 @@
 
 @media screen and (max-width: $small-breakpoint){
   // display classes
-  .small-only{
-    display: block !important;
+  .small-only, .sm-only{
+    display: flex !important;
+    &--block{
+      display: block !important;
+    }
+    &--inline-block{
+      display: inline-block !important;
+    }
+    &--inline-flex{
+      display: inline-flex !important;
+    }
   }
+
+  .md-only{
+    display: none !important;
+  }
+
   .desktop-only{
     display: none !important;
   }

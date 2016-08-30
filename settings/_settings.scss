@@ -16,6 +16,10 @@ $col-padding: 0.80rem !default;
 // Flex Basis Value
 $flex-basis: auto !default;
 
+// Medium Breakpoint Size
+// ( Use an em or rem value only for offsets to work correctly)
+$medium-breakpoint: 64em !default;
+
 // Small Breakpoint Size
 // ( Use an em or rem value only for offsets to work correctly)
 $small-breakpoint: 43em !default;

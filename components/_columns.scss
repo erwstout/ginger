@@ -40,6 +40,30 @@
   padding-right: 0;
 }
 
+// Medium Breakpoint Adjustments
+@media screen and (max-width: $medium-breakpoint){
+
+  // Medium columns (.md-col-6, etc.)
+  @for $i from 1 through 12 {
+    $flex-basis: 8.333333% * $i;
+    .md-col-#{$i} {
+        flex-basis: $flex-basis;
+    }
+  }
+}
+
+// Medium Breakpoint Adjustments for IE10/11
+@media screen and (max-width: $medium-breakpoint) and (-ms-high-contrast: none), (-ms-high-contrast: active){
+  @for $i from 1 through 12 {
+    $width: 8.333333% * $i;
+    .md-col-#{$i} {
+      width: $width;
+      flex-basis: auto;
+    }
+  }
+}
+
+
 // Small Breakpoint Adjustments
 @media screen and (max-width: $small-breakpoint){
 

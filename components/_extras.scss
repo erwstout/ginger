@@ -28,20 +28,33 @@
 }
 
 // Visibility Options
-.only-mobile, .small-only{
+.small-only{
   display: none !important;
 }
 
-.only-desktop, .desktop-only{
+.desktop-only{
   display: block !important;
+}
+
+@media screen and (max-width: $medium-breakpoint){
+  // text classes
+  .md-text-left{
+    text-align: left;
+  }
+  .md-text-center{
+    text-align: center;
+  }
+  .md-text-right{
+    text-align: right;
+  }
 }
 
 @media screen and (max-width: $small-breakpoint){
   // display classes
-  .only-mobile, .small-only{
+  .small-only{
     display: block !important;
   }
-  .only-desktop, .desktop-only{
+  .desktop-only{
     display: none !important;
   }
 

@@ -28,3 +28,53 @@
     }
   }
 }
+
+// Medium Breakpoint
+@media screen and (max-width: $medium-breakpoint){
+  @for $i from 1 through $max-block-grid {
+    $width: 100% / $i;
+    .md-block-grid-#{$i}{
+      .col{
+        flex-basis: $width;
+      }
+    }
+  }
+
+  // IE 10/11 Work Around
+  @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+    @for $i from 1 through $max-block-grid {
+      $width: 100% / $i;
+      .md-block-grid-#{$i}{
+        .col{
+          width: $width;
+          flex-basis: auto;
+        }
+      }
+    }
+  }
+}
+
+// Small Breakpoint
+@media screen and (max-width: $small-breakpoint){
+  @for $i from 1 through $max-block-grid {
+    $width: 100% / $i;
+    .sm-block-grid-#{$i}{
+      .col{
+        flex-basis: $width;
+      }
+    }
+  }
+
+  // IE 10/11 Work Around
+  @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+    @for $i from 1 through $max-block-grid {
+      $width: 100% / $i;
+      .sm-block-grid-#{$i}{
+        .col{
+          width: $width;
+          flex-basis: auto;
+        }
+      }
+    }
+  }
+}

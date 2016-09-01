@@ -89,4 +89,11 @@ These helper classes are as follows:
   - Align columns using `space-around` when they wrap
 
 - `.row--align-content-stretch`
-  - Align columns using `stretch` when they wrap 
+  - Align columns using `stretch` when they wrap
+
+### Override Usage Example
+  ```html
+<div class="row row--justify-content-center">
+  ...
+</div>
+  ```

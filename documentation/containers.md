@@ -53,19 +53,43 @@ classes to the `container` element.
 Classes available for override are:
 
 - `.container--wrap`
+  - Allow container rows to wrap
+
 - `.container--direction-row`
+  - Changes `container` `flex-direction` direction from `column` to `row`
+
 - `.container--justify-content-center`
+  - Justifies the `rows` into the vertical center of the `container`
+
 - `.container--justify-content-end`
+  - Justifies the `rows` to the bottom of the `container`
+
 - `.container--justify-content-space-between`
+  - Justifies the `rows` in the `container` to use `space-between`
+
 - `.container--justify-content-space-around`
+  - Justifies the `rows` in the `container` to use `space-around`
+
 - `.container--align-items-start`
+  - Aligns `rows` in the `container` to start of the element
+
 - `.container--align-items-end`
+  - Aligns `rows` in the `container` to end of the element
+
 - `.container--align-items-baseline`
+  - Aligns `rows` in the `container` to baseline of the element
+
 - `.container--align-items-stretch`
+  - Aligns `rows` in the `container` to stretch
+
 - `.container--align-content-center`
+
 - `.container--align-content-end`
+
 - `.container--align-content-space-between`
+
 - `.container--align-content-space-around `
+
 - `.container--align-content-stretch`
 
 ### Override Example Usage

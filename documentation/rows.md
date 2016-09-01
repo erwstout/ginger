@@ -1,6 +1,7 @@
 # Rows
 Rows hold your `columns` and are crucial to the layout of your site. Rows are required
-to be a direct child of a `container` or else they may not flex or behave as expected.
+to be a direct child of a `container` or else they may not flex or behave as expected
+with one exception being nested rows, which is covered below.
 
 ## Usage Examples
 As mentioned, rows should be a direct child of a `container` element. An practical
@@ -97,3 +98,21 @@ These helper classes are as follows:
   ...
 </div>
   ```
+
+## Nested Rows
+As mentioned, `rows` should be a direct child of a `container` element unless the
+row is being nested inside another.
+
+A typical example of a nested row is:
+
+```html
+<div class="container">
+  <div class="row">
+    <div class="col-6">
+      <div class="row">
+        ...
+      </div>
+    </div>
+  </div>
+</div>
+```

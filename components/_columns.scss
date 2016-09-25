@@ -68,7 +68,7 @@
 @media screen and (max-width: $small-breakpoint){
 
   // default columns go full width
-  *[class^="col-"]{
+  *[class*="col-"]{
     flex: 1 1 $flex-basis;
     flex-basis: 100%;
   }

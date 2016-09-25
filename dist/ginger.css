@@ -447,7 +447,7 @@
             flex-basis: auto; } }
 
 @media screen and (max-width: 43em) {
-  *[class^="col-"] {
+  *[class*="col-"] {
     -webkit-flex: 1 1 100.0%;
         -ms-flex: 1 1 100.0%;
             flex: 1 1 100.0%;

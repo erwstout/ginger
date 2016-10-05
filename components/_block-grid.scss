@@ -6,6 +6,7 @@ $block-grid-flex-wrap: wrap !default;
 
 *[class*="block-grid-"]{
   display: flex;
+  width: 100%;
   flex-direction: $block-grid-flex-direction;
   justify-content: $block-grid-justify-content;
   align-items: $block-grid-align-items;

@@ -83,6 +83,11 @@
   .md-text-right{
     text-align: right;
   }
+
+  // column centering
+  .md-col-center{
+    margin: 0 auto;
+  }
 }
 
 @media screen and (max-width: $small-breakpoint){
@@ -117,5 +122,10 @@
   }
   .sm-text-right{
     text-align: right;
+  }
+
+  // column centering
+  .sm-col-center{
+    margin: 0 auto;
   }
 }

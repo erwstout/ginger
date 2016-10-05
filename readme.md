@@ -160,7 +160,7 @@ to the height of its sibling(s).
 There are two visibility classes to help you hide or show elements for desktop/small:
 
 * `.small-only` - show the element only on on devices smaller then the `$small-breakpoint` value.
-* `.desktop-only` - show the element only on desktop
+* `.lg-only` - show the element only on desktop
 
 ## Adjusting Default Settings ##
 Adjusting the settings for Ginger allows you to customize the max-width of rows,

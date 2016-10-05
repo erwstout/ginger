@@ -1047,15 +1047,15 @@
 .md-only {
   display: none !important; }
 
-.desktop-only {
+.lg-only {
   display: -webkit-flex !important;
   display: -ms-flexbox !important;
   display: flex !important; }
-  .desktop-only--block {
+  .lg-only--block {
     display: block !important; }
-  .desktop-only--inline-block {
+  .lg-only--inline-block {
     display: inline-block !important; }
-  .desktop-only--inline-flex {
+  .lg-only--inline-flex {
     display: -webkit-inline-flex !important;
     display: -ms-inline-flexbox !important;
     display: inline-flex !important; }
@@ -1075,7 +1075,7 @@
       display: -webkit-inline-flex !important;
       display: -ms-inline-flexbox !important;
       display: inline-flex !important; }
-  .desktop-only {
+  .lg-only {
     display: none !important; }
   .md-text-left {
     text-align: left; }
@@ -1099,7 +1099,7 @@
       display: inline-flex !important; }
   .md-only {
     display: none !important; }
-  .desktop-only {
+  .lg-only {
     display: none !important; }
   .sm-text-left {
     text-align: left; }

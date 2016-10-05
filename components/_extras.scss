@@ -36,7 +36,7 @@
   display: none !important;
 }
 
-.desktop-only{
+.lg-only{
   display: flex !important;
   &--block{
     display: block !important;
@@ -69,7 +69,7 @@
     }
   }
 
-  .desktop-only{
+  .lg-only{
     display: none !important;
   }
 
@@ -104,7 +104,7 @@
     display: none !important;
   }
 
-  .desktop-only{
+  .lg-only{
     display: none !important;
   }
 

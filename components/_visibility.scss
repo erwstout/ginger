@@ -57,7 +57,7 @@
 // Small Viewport
 @media screen and (max-width: $small-breakpoint){
   // display classes
-  .small-only, .sm-only{
+  .sm-only{
     display: flex !important;
     &--block{
       display: block !important;

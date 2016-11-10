@@ -1,6 +1,6 @@
 // Visibility Classes
 
-.small-only, .sm-only{
+.sm-only{
   display: none !important;
 }
 
@@ -24,7 +24,7 @@
 // Medium Viewport
 @media screen and (min-width: $small-breakpoint) and (max-width: $medium-breakpoint){
   // display classes
-  .small-only, .sm-only{
+  .sm-only{
     display: none !important;
   }
 

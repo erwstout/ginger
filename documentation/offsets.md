@@ -8,7 +8,7 @@ of `offset-2`. Offset classes only apply to the medium and large viewports.
 ```html
 <div class="row">
   <div class="col-3 offset-3">
-    <!-- Offset Column by 3 -->>
+    <!-- Offset Column by 3 -->
   </div>
 </div>
 ```

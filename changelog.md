@@ -2,6 +2,9 @@
 All notable changes to this project will be documented in this file.
 This project adheres to [Semantic Versioning](http://semver.org/).
 
+## [2.0.0] - 2016-11-10
+## Released & Added
+- Releases all features in 2.0.0 and adds documentation.
 
 ## [1.1.4] - 2016-06-10
 ## Fixed and Changed

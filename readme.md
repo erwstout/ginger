@@ -13,22 +13,18 @@ There are three ways to install Ginger.
 2.  Install via bower using `bower install ginger-grid --save`
 3.  Install via npm using `npm install ginger-grid --save`
 
-A fourth option is downloading the latest version of Ginger and including `ginger.min.css`
-found in the `/dist/` folder into the `<head>` of your document. Only use this method if you don't want to customize
-any settings and/or need a pure CSS build.
-
 When setting up the `scss` file for your project be sure to include the Ginger
-settings file before importing `ginger.scss`. An example `scss` file would look like this:
+settings file before importing `ginger.scss`. An example `scss` file may look like this:
 
 ```scss
 // Include Ginger
 @import 'ginger/settings';
 @import 'ginger/ginger';
 ```
-It's important to note that you may get a compiler error if you're not including
+It's important to note that you may get a compile error if you're not including
 the path to Ginger when compiling your styles.
 
-## Using Ginger ##
+## Usage Examples ##
 Ginger is rather easy to use. A basic structure that consists of an element that
 spans 12 columns would look similar to this:
 ```html
@@ -53,14 +49,14 @@ Or if you wanted two columns that span 6 each:
   </div>
 </div>
 ```
-New in `1.1.0`, you can now create small columns that work inside your `small-breakpoint`
-media query. So if you have a column that should be 6 columns on desktop and 9 on small
-devices it would look like this:
+You can also create small or medium columns that work inside your `small-breakpoint` & `medium-breakpoint`
+media queries. So if you have a column that should be 6 columns on desktop and 9 medium
+and 4 on small devices it would look like this:
 
 ```html
 <div class="container">
   <div class="row">
-    <div class="sm-col-9 col-6">
+    <div class="sm-col-4 md-col-9 col-6">
       ...
     </div>
   </div>
@@ -164,7 +160,7 @@ to the height of its sibling(s).
 There are two visibility classes to help you hide or show elements for desktop/small:
 
 * `.small-only` - show the element only on on devices smaller then the `$small-breakpoint` value.
-* `.desktop-only` - show the element only on desktop
+* `.lg-only` - show the element only on desktop
 
 ## Adjusting Default Settings ##
 Adjusting the settings for Ginger allows you to customize the max-width of rows,

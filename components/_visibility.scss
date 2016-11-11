@@ -1,0 +1,88 @@
+// Visibility Classes
+
+.sm-only{
+  display: none !important;
+}
+
+.md-only{
+  display: none !important;
+}
+
+.lg-only{
+  display: flex !important;
+  &--block{
+    display: block !important;
+  }
+  &--inline-block{
+    display: inline-block !important;
+  }
+  &--inline-flex{
+    display: inline-flex !important;
+  }
+}
+
+// Medium Viewport
+@media screen and (min-width: $small-breakpoint) and (max-width: $medium-breakpoint){
+  // display classes
+  .sm-only{
+    display: none !important;
+  }
+
+  .md-only{
+    display: flex !important;
+    &--block{
+      display: block !important;
+    }
+    &--inline-block{
+      display: inline-block !important;
+    }
+    &--inline-flex{
+      display: inline-flex !important;
+    }
+  }
+
+  .lg-only{
+    display: none !important;
+  }
+
+  .md-hide{
+    display: none !important;
+  }
+
+  .md-hide-down{
+    display: none !important
+  }
+}
+
+// Small Viewport
+@media screen and (max-width: $small-breakpoint){
+  // display classes
+  .sm-only{
+    display: flex !important;
+    &--block{
+      display: block !important;
+    }
+    &--inline-block{
+      display: inline-block !important;
+    }
+    &--inline-flex{
+      display: inline-flex !important;
+    }
+  }
+
+  .md-only{
+    display: none !important;
+  }
+
+  .md-hide-down{
+    display: none !important
+  }
+
+  .lg-only{
+    display: none !important;
+  }
+
+  .sm-hide{
+    display: none !important;
+  }
+}

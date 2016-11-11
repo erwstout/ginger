@@ -27,20 +27,40 @@
   align-self: stretch;
 }
 
-// Visibility Options
-.only-mobile, .small-only{
-  display: none !important;
-}
+@media screen and (max-width: $medium-breakpoint){
 
-.only-desktop, .desktop-only{
-  display: block !important;
+  // text classes
+  .md-text-left{
+    text-align: left;
+  }
+  .md-text-center{
+    text-align: center;
+  }
+  .md-text-right{
+    text-align: right;
+  }
+
+  // column centering
+  .md-col-center{
+    margin: 0 auto;
+  }
 }
 
 @media screen and (max-width: $small-breakpoint){
-  .only-mobile, .small-only{
-    display: block !important;
+
+  // text classes
+  .sm-text-left{
+    text-align: left;
   }
-  .only-desktop, .desktop-only{
-    display: none !important;
+  .sm-text-center{
+    text-align: center;
+  }
+  .sm-text-right{
+    text-align: right;
+  }
+
+  // column centering
+  .sm-col-center{
+    margin: 0 auto;
   }
 }

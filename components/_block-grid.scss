@@ -1,0 +1,92 @@
+// Block Grid
+$block-grid-flex-direction: row !default;
+$block-grid-justify-content: space-between !default;
+$block-grid-align-items: flex-start !default;
+$block-grid-flex-wrap: wrap !default;
+
+@mixin block-grid{
+  display: flex;
+  width: 100%;
+  flex-direction: $block-grid-flex-direction;
+  justify-content: $block-grid-justify-content;
+  align-items: $block-grid-align-items;
+  flex-wrap: $block-grid-flex-wrap;
+}
+
+@for $i from 1 through $max-block-grid {
+  $width: 100% / $i;
+  .block-grid-#{$i}{
+    @include block-grid();
+    .col{
+      flex-basis: $width;
+    }
+  }
+}
+
+// IE 10/11 Work Around
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+  @for $i from 1 through $max-block-grid {
+    $width: 100% / $i;
+    .block-grid-#{$i}{
+      @include block-grid();
+      .col{
+        width: $width;
+        flex-basis: auto;
+      }
+    }
+  }
+}
+
+// Medium Breakpoint
+@media screen and (max-width: $medium-breakpoint){
+  @for $i from 1 through $max-block-grid {
+    $width: 100% / $i;
+    .md-block-grid-#{$i}{
+      @include block-grid();
+      .col{
+        flex-basis: $width;
+      }
+    }
+  }
+
+  // IE 10/11 Work Around
+  @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+    @for $i from 1 through $max-block-grid {
+      $width: 100% / $i;
+      .md-block-grid-#{$i}{
+        @include block-grid();
+        .col{
+          width: $width;
+          flex-basis: auto;
+        }
+      }
+    }
+  }
+}
+
+// Small Breakpoint
+@media screen and (max-width: $small-breakpoint){
+  @for $i from 1 through $max-block-grid {
+    $width: 100% / $i;
+    .sm-block-grid-#{$i}{
+      @include block-grid();
+      .col{
+        flex-basis: $width;
+      }
+    }
+  }
+
+  // IE 10/11 Work Around
+  @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+    @for $i from 1 through $max-block-grid {
+      $width: 100% / $i;
+      .sm-block-grid-#{$i}{
+        @include block-grid();
+        .col{
+          width: $width;
+          flex-basis: auto;
+        }
+      }
+    }
+  }
+}

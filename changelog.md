@@ -2,6 +2,10 @@
 All notable changes to this project will be documented in this file.
 This project adheres to [Semantic Versioning](http://semver.org/).
 
+## [2.0.2] - 2016-12-17
+## Fixes
+- Fixes small columns from growing on small breakpoints
+
 ## [2.0.1] - 2016-11-10
 ## Updates
 - Updates readme

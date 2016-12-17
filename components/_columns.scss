@@ -78,6 +78,7 @@
     $flex-basis: 8.333333% * $i;
     .sm-col-#{$i} {
         flex-basis: $flex-basis;
+        flex-grow: 0;
     }
   }
 }

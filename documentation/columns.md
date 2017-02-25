@@ -1,8 +1,12 @@
 # Columns
 Columns are the bread and butter of Ginger and should hold your content. Columns
 follow an easy naming convention of `col-#` where you can specify how many columns
-this element should span. So for a 4 column layout you would use `.col-4` and for
-a 12 col layout you would use `.col-12`, and so on...
+this element should span. So for a 4 column element you would use `.col-4` and for
+a 12 col element you would use `.col-12`, and so on... Ginger works "large down"
+meaning, an element with a class of `.col-6` will remain 6 columns until the `$small-breakpoint`
+is hit, then expand to 12 columns, unless a `sm-col-` class is declared. You may
+also use `md-col-` classes to change the column count for those "in-between" views
+as well as declared by the `$medium-breakpoint` value.
 
 ## Usage Examples
 Below you can find an example layout of a page with a sidebar and content area.

@@ -28,7 +28,7 @@ Ginger has a few visibility classes out of the box to help you hide or show elem
 ```
 
 ## Visibility Helpers
-Some visibility classes such as `lg-only`, `md-only`, and `sm-only` have helper classes to control the `display` property. By default all classes are `display: flex`. Here is an example from `lg-only`:
+Visibility classes allow you to control the `display` property. By default all classes are `display: flex`. Using these helpers you can quickly change the display property. Here is an example from `lg-only`:
 
 ```scss
 // Class as seen in components/_visibility.scss

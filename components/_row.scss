@@ -93,5 +93,6 @@ $row-align-content   : flex-start !default;
   .row{
     margin-left: -$col-padding;
     margin-right: -$col-padding;
+    width: auto;
   }
 }

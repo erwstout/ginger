@@ -2,6 +2,7 @@
 Ginger has a few visibility classes out of the box to help you hide or show elements based on viewport sizes. These sizes are determined by the variables set for `$medium-breakpoint` and `$small-breakpoint`.
 
 ## Available Classes
+- `hide` - hide element on all viewports 
 - `lg-only` - only displays the element on large viewports (above `$medium-breakpoint`)
 - `md-only` - only displays the element on medium viewports
 - `sm-only` - only displays the element on small viewports

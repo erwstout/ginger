@@ -1,7 +1,7 @@
 /*
 * Ginger
 * A minimal flexbox grid system named after a cute dog.
-* Version 2.0.1
+* Version 2.0.3
 * Written by Eric Stout (@erwstout)
 * http://ericwstout.com
 */
@@ -139,11 +139,13 @@
 
 .row .row {
   margin-left: -0.8rem;
-  margin-right: -0.8rem; }
+  margin-right: -0.8rem;
+  width: auto; }
 
-*[class*="col-"], *[class*="sm-col-"], *[class*="flex-basis-"], .col {
+*[class*="col-"], *[class*="sm-col-"], *[class*="md-col-"], *[class*="flex-basis-"], .col {
   -ms-flex: 0 1 auto;
       flex: 0 1 auto;
+  position: relative;
   box-sizing: border-box;
   padding-left: 0.8rem;
   padding-right: 0.8rem;
@@ -343,7 +345,7 @@
     -ms-flex-preferred-size: auto;
         flex-basis: auto; } }
 
-@media screen and (max-width: 43em) {
+@media screen and (max-width: 47.9375em) {
   *[class*="col-"] {
     -ms-flex: 1 1 100.0%;
         flex: 1 1 100.0%;
@@ -410,7 +412,7 @@
     -ms-flex-positive: 0;
         flex-grow: 0; } }
 
-@media screen and (max-width: 43em) and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+@media screen and (max-width: 47.9375em) and (-ms-high-contrast: none), (-ms-high-contrast: active) {
   .sm-col-1 {
     width: 8.33333%;
     -ms-flex-preferred-size: auto;
@@ -460,7 +462,7 @@
     -ms-flex-preferred-size: auto;
         flex-basis: auto; } }
 
-@media screen and (min-width: 43.0625em) {
+@media screen and (min-width: 48em) {
   .offset-1 {
     margin-left: 8.33333%; }
   .offset-2 {
@@ -1246,7 +1248,7 @@
       -ms-flex-preferred-size: auto;
           flex-basis: auto; } }
 
-@media screen and (max-width: 43em) {
+@media screen and (max-width: 47.9375em) {
   .sm-block-grid-1 {
     display: -ms-flexbox;
     display: flex;
@@ -1428,7 +1430,7 @@
       -ms-flex-preferred-size: 8.33333%;
           flex-basis: 8.33333%; } }
 
-@media screen and (max-width: 43em) and (-ms-high-contrast: active) {
+@media screen and (max-width: 47.9375em) and (-ms-high-contrast: active) {
   .sm-block-grid-1 {
     display: -ms-flexbox;
     display: flex;
@@ -1622,6 +1624,9 @@
       -ms-flex-preferred-size: auto;
           flex-basis: auto; } }
 
+.hide {
+  display: none !important; }
+
 .sm-only {
   display: none !important; }
 
@@ -1639,7 +1644,7 @@
     display: -ms-inline-flexbox !important;
     display: inline-flex !important; }
 
-@media screen and (min-width: 43em) and (max-width: 64em) {
+@media screen and (min-width: 47.9375em) and (max-width: 64em) {
   .sm-only {
     display: none !important; }
   .md-only {
@@ -1659,7 +1664,7 @@
   .md-hide-down {
     display: none !important; } }
 
-@media screen and (max-width: 43em) {
+@media screen and (max-width: 47.9375em) {
   .sm-only {
     display: -ms-flexbox !important;
     display: flex !important; }
@@ -1709,7 +1714,7 @@
   .md-col-center {
     margin: 0 auto; } }
 
-@media screen and (max-width: 43em) {
+@media screen and (max-width: 47.9375em) {
   .sm-text-left {
     text-align: left; }
   .sm-text-center {

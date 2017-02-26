@@ -24,6 +24,8 @@ settings file before importing `ginger.scss`. An example `scss` file may look li
 It's important to note that you may get a compile error if you're not including
 the path to Ginger when compiling your styles.
 
+You can view all the documentation at [gingergrid.com](https://gingergrid.com).
+
 ## Issues / Bugs / Contributions ##
 If you have feedback, find a bug, or want to make contributions, please don't
 hesitate to open an issue or make a pull request.

@@ -12,17 +12,17 @@ Ginger has a few visibility classes out of the box to help you hide or show elem
 
 ```html
 <!-- Show on small only -->
-<div class="sm--only">
+<div class="sm-only">
   This appears on small viewports only
 </div>
 
 <!-- Show on medium only -->
-<div class="md--only">
+<div class="md-only">
   This appears on medium viewports only
 </div>
 
 <!-- Show on large only -->
-<div class="lg--only">
+<div class="lg-only">
   This appears on large viewports only
 </div>
 ```

@@ -13,7 +13,14 @@ $block-grid-align-items: flex-start !default;
 $block-grid-flex-wrap: wrap !default;
 ```
 
-You can overwrite any of these values by simply adding a row helper class.
+You can overwrite the block grid's `justify-content` property by simply adding a helper class:
+
+```scss
+.block-grid--justify-content-center
+.block-grid--justify-content-start
+.block-grid--justify-content-end
+.block-grid--justify-content-space-around
+```
 
 ## Changing Block Grid Count For Viewports & Usage Example
 The number of items in the grid can change for other viewports by simply adding

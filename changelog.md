@@ -2,10 +2,16 @@
 All notable changes to this project will be documented in this file.
 This project adheres to [Semantic Versioning](http://semver.org/).
 
+## [2.1.0] - 2017-06-21
+## Adds
+- Block grid justify-content classes
+## Fixes
+- Fixes sm-col-centered class name to match documentation.
+
 ## [2.0.3] - 2017-02-24
 ## Various Fixes and Documentation Updates
 - Closes various issues including nested row widths and element positions.
-- Special thanks to @bebaps for helping call out some issues. 
+- Special thanks to @bebaps for helping call out some issues.
 
 ## [2.0.2] - 2016-12-17
 ## Fixes

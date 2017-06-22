@@ -13,6 +13,22 @@ $block-grid-flex-wrap: wrap !default;
   flex-wrap: $block-grid-flex-wrap;
 }
 
+// Block Grid Alignment Classes
+.block-grid {
+  &--justify-content-center {
+    justify-content: center;
+  }
+  &--justify-content-start {
+    justify-content: flex-start;
+  }
+  &--justify-content-space-around {
+    justify-content: space-around;
+  }
+  &--justify-content-end {
+    justify-content: flex-end;
+  }
+}
+
 @for $i from 1 through $max-block-grid {
   $width: 100% / $i;
   .block-grid-#{$i}{

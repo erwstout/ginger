@@ -83,7 +83,8 @@ In practice this would look something like this:
 
 ### No Padding (`.col-no-pad`)
 In some cases you may want to get rid of the column padding (gutter). This can easily
-be achieved by using a class of `.col-no-pad`.
+be achieved by using a class of `.col-no-pad`. You can also adjust these by breakpoints,
+such as `.sm-col-no-pad`.
 
 ```html
 <div class="col-7 col-no-pad">

@@ -3,6 +3,9 @@ All notable changes to this project will be documented in this file.
 This project adheres to [Semantic Versioning](http://semver.org/).
 
 ## [2.2.0] - 2017-10-28
+## Adds
+- Add breakpoint classes for `col-no-pad`
+
 ## Removes
 - Removes nested row margins from issue #62
 

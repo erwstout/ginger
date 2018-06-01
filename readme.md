@@ -1,4 +1,4 @@
-![Ginger Logo](http://erwstout.github.io/ginger/images/GingerLogo.png)
+![Ginger Logo](https://gingergrid.firebaseapp.com/GingerHeader.jpg)
 
 # Ginger #
 Ginger is a minimal flexbox 12 column grid system named after a cute dog. It doesn't give

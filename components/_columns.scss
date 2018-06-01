@@ -51,6 +51,12 @@
         flex-basis: $flex-basis;
     }
   }
+
+  // Medium col-no-pad
+  .md-col-no-pad {
+    padding-left: 0;
+    padding-right: 0;
+  }
 }
 
 // Medium Breakpoint Adjustments for IE10/11
@@ -81,6 +87,12 @@
         flex-basis: $flex-basis;
         flex-grow: 0;
     }
+  }
+
+  // Small col-no-pad
+  .sm-col-no-pad {
+    padding-left: 0;
+    padding-right: 0;
   }
 }
 

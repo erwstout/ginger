@@ -14,7 +14,9 @@ easy and quick.
 
 ## Installing Ginger
 
-There are three ways to install Ginger.
+There are two ways to install Ginger.
+
+> Note: as of August 2020, bower is no longer supported
 
 1. Clone the repository or download the files to your project
 1. Install via npm/yarn using `npm install ginger-grid --save` or `yarn add ginger-grid`

@@ -1,1 +1,6 @@
 documentation/
+.github
+.huskyrc
+.prettierignore
+.prettierrc
+.releaserc

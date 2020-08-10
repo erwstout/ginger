@@ -1,7 +1,9 @@
 # Extras
+
 Here are a collection of tools/classes that help aid development of your site or theme.
 
 ## Text Alignment
+
 Easily set text alignments for elements.
 
 - `text-left`
@@ -9,6 +11,7 @@ Easily set text alignments for elements.
 - `text-right`
 
 ### Adjusting For Viewports
+
 You can adjust text alignments for viewports as well.
 
 - `md-text-left`
@@ -27,6 +30,7 @@ You can adjust text alignments for viewports as well.
 ```
 
 ## Column Centering
+
 If you wish to center a column in its row, you can do so by adding `col-centered`. You can also do this for a certain viewport as well.
 
 ### Usage Examples
@@ -49,6 +53,7 @@ If you wish to center a column in its row, you can do so by adding `col-centered
 ```
 
 ## Column - Push Right
+
 You can push a column to the right as well, but it you may be better off using a row helper class of `row--justify-content-end` instead... but just in case it's
 here for you.
 
@@ -61,6 +66,7 @@ here for you.
 ```
 
 ## Stretching Columns
+
 Stretching columns can come in handy quite often. This will stretch a column so
 that it is the same height as its siblings.
 
@@ -68,9 +74,9 @@ that it is the same height as its siblings.
 
 ```html
 <div class="col-6 stretch">
- <!-- Content -->
+  <!-- Content -->
 </div>
 <div class="col-6 stretch">
- <!-- Content -->
+  <!-- Content -->
 </div>
 ```

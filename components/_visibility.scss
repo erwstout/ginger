@@ -1,92 +1,92 @@
 // Visibility Classes
 
-.hide{
+.hide {
   display: none !important;
 }
 
-.sm-only{
+.sm-only {
   display: none !important;
 }
 
-.md-only{
+.md-only {
   display: none !important;
 }
 
-.lg-only{
+.lg-only {
   display: flex !important;
-  &--block{
+  &--block {
     display: block !important;
   }
-  &--inline-block{
+  &--inline-block {
     display: inline-block !important;
   }
-  &--inline-flex{
+  &--inline-flex {
     display: inline-flex !important;
   }
 }
 
 // Medium Viewport
-@media screen and (min-width: $small-breakpoint) and (max-width: $medium-breakpoint){
+@media screen and (min-width: $small-breakpoint) and (max-width: $medium-breakpoint) {
   // display classes
-  .sm-only{
+  .sm-only {
     display: none !important;
   }
 
-  .md-only{
+  .md-only {
     display: flex !important;
-    &--block{
+    &--block {
       display: block !important;
     }
-    &--inline-block{
+    &--inline-block {
       display: inline-block !important;
     }
-    &--inline-flex{
+    &--inline-flex {
       display: inline-flex !important;
     }
   }
 
-  .lg-only{
+  .lg-only {
     display: none !important;
   }
 
-  .md-hide{
+  .md-hide {
     display: none !important;
   }
 
-  .md-hide-down{
-    display: none !important
+  .md-hide-down {
+    display: none !important;
   }
 }
 
 // Small Viewport
-@media screen and (max-width: $small-breakpoint){
+@media screen and (max-width: $small-breakpoint) {
   // display classes
-  .sm-only{
+  .sm-only {
     display: flex !important;
-    &--block{
+    &--block {
       display: block !important;
     }
-    &--inline-block{
+    &--inline-block {
       display: inline-block !important;
     }
-    &--inline-flex{
+    &--inline-flex {
       display: inline-flex !important;
     }
   }
 
-  .md-only{
+  .md-only {
     display: none !important;
   }
 
-  .md-hide-down{
-    display: none !important
-  }
-
-  .lg-only{
+  .md-hide-down {
     display: none !important;
   }
 
-  .sm-hide{
+  .lg-only {
+    display: none !important;
+  }
+
+  .sm-hide {
     display: none !important;
   }
 }

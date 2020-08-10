@@ -1,18 +1,14 @@
 /*
 * Ginger
 * A minimal flexbox grid system named after a cute dog.
-* Version 2.1.1
 * Written by Eric Stout (@erwstout)
 * http://ericwstout.com
 */
 
-// Only use these settings when compiling Ginger with default settings
-@import 'settings/settings';
-
-@import 'components/container';
-@import 'components/row';
-@import 'components/columns';
-@import 'components/offsets';
-@import 'components/block-grid';
-@import 'components/visibility';
-@import 'components/extras';
+@import "components/container";
+@import "components/row";
+@import "components/columns";
+@import "components/offsets";
+@import "components/block-grid";
+@import "components/visibility";
+@import "components/extras";

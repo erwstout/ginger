@@ -2,65 +2,64 @@
 // extra classes that can help the layout of a page
 
 // Text Alignments
-.text-left{
+.text-left {
   text-align: left;
 }
-.text-center{
+.text-center {
   text-align: center;
 }
-.text-right{
+.text-right {
   text-align: right;
 }
 
 // Center A Column
-.col-centered{
+.col-centered {
   margin: 0 auto;
 }
 
 // Column Pushed Right
-.col-right{
+.col-right {
   margin: 0 0 0 auto;
 }
 
 // Allow a Column to Stretch to its siblings
-.stretch{
+.stretch {
   align-self: stretch;
 }
 
-@media screen and (max-width: $medium-breakpoint){
-
+@media screen and (max-width: $medium-breakpoint) {
   // text classes
-  .md-text-left{
+  .md-text-left {
     text-align: left;
   }
-  .md-text-center{
+  .md-text-center {
     text-align: center;
   }
-  .md-text-right{
+  .md-text-right {
     text-align: right;
   }
 
   // column centering
-  .md-col-center{
+  .md-col-center {
     margin: 0 auto;
   }
 }
 
-@media screen and (max-width: $small-breakpoint){
-
+@media screen and (max-width: $small-breakpoint) {
   // text classes
-  .sm-text-left{
+  .sm-text-left {
     text-align: left;
   }
-  .sm-text-center{
+  .sm-text-center {
     text-align: center;
   }
-  .sm-text-right{
+  .sm-text-right {
     text-align: right;
   }
 
   // column centering
-  .sm-col-center, .sm-col-centered{
+  .sm-col-center,
+  .sm-col-centered {
     margin: 0 auto;
   }
 }

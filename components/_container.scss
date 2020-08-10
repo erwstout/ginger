@@ -1,37 +1,37 @@
 // Container
-$flex-wrap       : nowrap     !default;
-$flex-direction  : column     !default;
-$justify-content : flex-start !default;
-$align-items     : center     !default;
-$align-content   : flex-start !default;
+$flex-wrap: nowrap !default;
+$flex-direction: column !default;
+$justify-content: flex-start !default;
+$align-items: center !default;
+$align-content: flex-start !default;
 
 .container {
-  position        : relative;
-  width           : 100%;
-  max-width       : $container-max-width;
-  display         : flex;
-  flex-wrap       : $flex-wrap;
-  flex-direction  : $flex-direction;
-  justify-content : $justify-content;
-  align-items     : $align-items;
-  align-content   : $align-content;
-  margin          : 0 auto;
+  position: relative;
+  width: 100%;
+  max-width: $container-max-width;
+  display: flex;
+  flex-wrap: $flex-wrap;
+  flex-direction: $flex-direction;
+  justify-content: $justify-content;
+  align-items: $align-items;
+  align-content: $align-content;
+  margin: 0 auto;
 
   &--wrap {
-    flex-wrap : wrap;
+    flex-wrap: wrap;
   }
 
   &--direction-row {
-    flex-direction : row;
+    flex-direction: row;
   }
 
   // justify classes
   &--justify-content-center {
-    justify-content : center;
+    justify-content: center;
   }
 
   &--justify-content-end {
-    justify-content : flex-end;
+    justify-content: flex-end;
   }
 
   &--justify-content-space-between {
@@ -39,44 +39,43 @@ $align-content   : flex-start !default;
   }
 
   &--justify-content-space-around {
-    justify-content : space-around;
+    justify-content: space-around;
   }
 
   // align classes
   &--align-items-start {
-    align-items : flex-start;
+    align-items: flex-start;
   }
 
   &--align-items-end {
-    align-items : flex-end;
+    align-items: flex-end;
   }
 
   &--align-items-baseline {
-    align-items : baseline;
+    align-items: baseline;
   }
 
   &--align-items-stretch {
-    align-items : stretch;
+    align-items: stretch;
   }
 
   &--align-content-center {
-    align-content : center;
+    align-content: center;
   }
 
   &--align-content-end {
-    align-content : flex-end;
+    align-content: flex-end;
   }
 
   &--align-content-space-between {
-    align-content : space-between;
+    align-content: space-between;
   }
 
   &--align-content-space-around {
-    align-content : space-around;
+    align-content: space-around;
   }
 
   &--align-content-stretch {
-    align-content : stretch;
+    align-content: stretch;
   }
-
 }

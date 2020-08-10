@@ -1,4 +1,5 @@
 # Columns
+
 Columns are the bread and butter of Ginger and should hold your content. Columns
 follow an easy naming convention of `col-#` where you can specify how many columns
 this element should span. So for a 4 column element you would use `.col-4` and for
@@ -9,6 +10,7 @@ also use `md-col-` classes to change the column count for those "in-between" vie
 as well as declared by the `$medium-breakpoint` value.
 
 ## Usage Examples
+
 Below you can find an example layout of a page with a sidebar and content area.
 
 ```html
@@ -36,7 +38,9 @@ The `.col-centered` class is covered lower down on this page.
   </div>
 </section>
 ```
+
 ## Column Counts for Different Breakpoints
+
 Since Ginger allows you to set both a `$medium-breakpoint` and a `$small-breakpoint`
 you can change your column count based on the screen size. So for example, on larger
 (usually desktop) devices, you may want a 10 column layout but on medium devices
@@ -50,11 +54,13 @@ achieved by using:
 ```
 
 ## Column Extras!
+
 Columns don't have the amount of overrides `containers` and `rows` have since in
 most cases they are children elements, but they do have a few extras to help dial
 in your layout.
 
 ### Centering A Column (`.col-centered`)
+
 It's common for a `column` to be centered in the middle of the row such as the
 example above. This can easily be achieved by adding the class `col-centered` to
 a column. For instance:
@@ -66,6 +72,7 @@ a column. For instance:
 ```
 
 ### Text Alignment
+
 You can easily adjust the `text-align` property for an entire `column` by using
 text alignment classes. There are three options available:
 
@@ -82,6 +89,7 @@ In practice this would look something like this:
 ```
 
 ### No Padding (`.col-no-pad`)
+
 In some cases you may want to get rid of the column padding (gutter). This can easily
 be achieved by using a class of `.col-no-pad`. You can also adjust these by breakpoints,
 such as `.sm-col-no-pad`.
@@ -93,6 +101,7 @@ such as `.sm-col-no-pad`.
 ```
 
 ### Column Growing (`.col-grow`)
+
 By default, a column has a `flex` property of `flex: 0 1 $flex-basis`. Adding a class of
 `.col-grow` allows a column to grow (`flex: 1 1 $flex-basis`) when it rolls to a new line.
 This can help you achieve a layout where an orphaned column rolls, it takes up the
@@ -103,7 +112,9 @@ entire width of the parent row. Usage:
   ...
 </div>
 ```
+
 ### Push Column Right (`.col-right`)
+
 In some cases it might be useful to push a column to the far right of a row. This can
 be achieved multiple ways (one of which is by changing the row `justify-content` property)
 or by simply adding the class of `.col-right` to a column.
@@ -117,6 +128,7 @@ Example:
 ```
 
 ### Column Stretching
+
 There are plenty of times where columns need to match each other in height, but
 the content of each column will vary leaving one column shorter than the other.
 You can easily tell columns to stretch to match its sibling columns by adding a class

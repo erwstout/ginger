@@ -9,8 +9,9 @@ settings file before importing `ginger.scss`. An example `scss` file may look li
 
 ```scss
 // Include Ginger
-@import 'ginger/settings';
-@import 'ginger/ginger';
+@import "ginger/settings";
+@import "ginger/ginger";
 ```
+
 It's important to note that you may get a compile error if you're not including
 the path to Ginger when compiling your styles.

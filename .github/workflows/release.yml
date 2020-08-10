@@ -9,11 +9,13 @@ on:
 
 jobs:
   release:
-    needs: docker
     runs-on: ubuntu-latest
 
     steps:
       - uses: actions/checkout@v2
+
+      - name: Install dependencies
+        run: npm ci
 
       - name: Create release
         env:

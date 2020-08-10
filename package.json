@@ -5,7 +5,8 @@
   "main": "ginger.scss",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "format": "prettier . --write"
+    "format": "prettier . --write",
+    "release": "semantic-release"
   },
   "repository": {
     "type": "git",

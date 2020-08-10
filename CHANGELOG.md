@@ -1,3 +1,5 @@
+## [2.3.1](https://github.com/erwstout/ginger/compare/v2.3.0...v2.3.1) (2020-08-10)
+
 # [2.3.0](https://github.com/erwstout/ginger/compare/v2.2.0...v2.3.0) (2020-08-10)
 
 ### Bug Fixes
